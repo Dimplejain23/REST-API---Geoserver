@@ -13,12 +13,18 @@ The filename should be in this format to follow this restapi code- example (bang
 To be able to load the data on GeoServer you must get a GeoServer running in the URL http://localhost:8080.
 The GeoServer version used was 2.16.2 - stable version
 
-The restapi.py file will do all the following process:-
-  #Check the existing workspaces: if already exist as per the requirement then it will not create the workspace.
-  #Create the workspace: workspace will create as per the starting name of the .tif file that you want to save in GeoServer.
-  #Check the existing Stores:-  if your file already exists then it will not create the store.
-  #Create the store:- Store will create with the same filename.
-  #Load the style:- Set the style for raster.
+# The restapi.py file will do all the following process:-
+
+  # Check the existing workspaces:-
+  if already exist as per the requirement then it will not create the workspace.
+  # Create the workspace:- 
+  workspace will create as per the starting name of the .tif file that you want to save in GeoServer.
+  # Check the existing Stores:-  
+  if your file already exists then it will not create the store.
+  # Create the store:-
+  Store will create with the same filename.
+  # Load the style:- 
+  Set the style for raster.
 
 
 
